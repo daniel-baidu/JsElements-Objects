@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <style>
+        body {
+            background: hsla(217, 100%, 50%, 1);
+
+background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+
+        }
+        </style>
+        </head>
+
+<body>
+
+<h2>JavaScript Objects</h2>
+<h2>HTML Elements</h2>
+
+<p>An object method is a function definition, stored as a property value.</p>
+
+<p>An HTML event can be something the browser does, or something a user does.</p>
+
+<script>
+// Create an object:
+var person = {
+  firstName: "Stylo",
+  lastName : "Baidu",
+  id     : 5566,
+  fulName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+// Display data from the object:
+
+
+
+</script>
+<button onclick="document.getElementById('demo').innerHTML=person.fulName();">The Name is? </button>
+<p id="demo"></p>
+</body>
+</html>
